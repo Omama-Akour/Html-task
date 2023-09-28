@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        width: 100%;
+        height: 50px;
+        background-color: gainsboro;
+    }
+    .head{
+        width: 100%;
+        height: 50px;
+        grid-template-columns: 25% 50% 25%;
+        display: grid;
+         margin: auto;
+         gap: 10px;
+       
+    }
+    .head div{
+        background-color: rgb(255, 255, 255);
+       margin:5px;
+       
+       
+    }
+    .page{
+        width: 100%;
+        height: 600px;
+        margin: auto;
+    }
+    .upper{
+        grid-template-columns: 25% 75%;
+        display: grid;
+        margin:auto;
+        height: 450px;
+        gap: 15px;
+        
+    }
+    .left{
+        background-color: rgb(254, 254, 254);
+        width: 100%;
+        height: 400px;
+        margin: auto;
+       
+        display: flex;
+        flex-direction: column;
+
+    }
+    .left div{
+        width: 100%;
+        height: 30px;
+        margin: auto;
+        background-color: aliceblue;
+        text-align:center;
+    }
+    .right{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        background-image: url("banner.jpg");
+        justify-self: center;
+        
+    }
+    .lower{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+        margin: auto;
+    }
+    .lower div{
+        width: auto;
+        height: 100%;
+        background-color: rgb(237, 237, 243);
+        margin: auto;
+    }
+    
+</style>
+<body>
+    <div class="header"></div>
+    <div class="head" >
+      
+        <div style="display: flex; justify-content: space-between; " >
+            <div style="display: flex;flex-wrap: wrap; text-align: center; margin-left: 50px;">
+            <div style="color: greenyellow;"> Home</div>
+            <div> Shop</div>
+            <div>Pages</div>
+            <div>Blog</div>
+            <div>Country</div>
+        </div>
+        </div>
+            
+        <div style="text-align: end;">Icons</div>
+    </div>
+    <div class="page"> 
+       <div class="upper">
+        <div class="left">
+            <div style="background-color: green;">ttt</div>
+            <div> ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+            <div>ttttt</div>
+
+        </div>
+        <div class="right">
+           <p style="color: greenyellow;">FRUIT FRESH <br>  <h1>vegetable  <br> 100% organic</h1>  <button style="color: rgb(255, 255, 255); background-color:greenyellow;"> SHOP NOW</button>
+        </p>
+            <div style="height: 50px; width: auto;text-align: center;"> </div>
+           
+        </div>
+       </div>
+       <div class="lower">
+        <div><img src="cat-1.jpg" alt=""></div>
+        <div><img src="cat-1.jpg" alt=""></div>
+        <div><img src="cat-1.jpg" alt=""></div>
+        <div><img src="cat-1.jpg" alt=""></div>
+       </div>
+    </div>
+</body>
+</html>

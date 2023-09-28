@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <title>Document</title>
+    
+</head>
+<style>
+    .header{
+        width: 100%;
+        height: 70px;
+        background-color: rgb(69, 69, 254);
+
+    }
+    .page{
+        width: 90%;
+        height: 750px;
+        margin: auto;
+        background-color: rgb(249, 248, 248);
+       
+    }
+    .page2{
+        width: 90%;
+        height: 650px;
+        grid-template-rows: 30% 70%;
+        display: grid;
+        margin: auto;
+        background-color:rgb(250, 250, 250);
+        padding: 1px;
+      
+    }
+    .page2 div{ 
+       margin: 1px;
+       border: 1px solid rgb(255, 255, 255);
+       border-radius: 5%;
+    }
+    .row1{
+        grid-template-columns: 30% 30% 30%;
+        display: grid;
+      justify-content: space-between;
+        height: 150px;
+    }
+    #first{
+        grid-template-columns: 50% 50%;
+        display: grid;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+
+    }
+    #second{
+        grid-template-columns: 50% 50%;
+        display: grid;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+
+    }
+    #therd{
+        grid-template-columns: 30% 70%;
+        display: grid;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .lower{
+        grid-template-columns: 50% 50%;
+        display: grid;
+        margin: auto;
+        width: 99%;
+        height: 99%;
+        background-color:rgb(247, 247, 247);
+    }
+    .left{
+        grid-template-rows: 15% 20% 20% 20% 20%;
+        display: grid;
+        margin: auto;
+        height: 99%;
+        width: 99%;
+        gap: 5px;
+        background-color:rgb(255, 255, 255);
+    }
+    .right{
+        grid-template-rows: 35% 20% 35%;
+        display: grid;
+        margin: auto;
+        height: 99%;
+        width: 99%;
+        background-color:rgb(249, 248, 248);
+        gap: 15px;
+        
+    }
+    .right div{
+       grid-template-columns: 50% 50%;
+       display: grid;
+       gap: 5px;
+      background-color:rgb(255, 255, 255);
+       width: 99%;
+       height: 100%;
+       margin: auto;
+       border
+       
+
+    }
+   
+
+   
+
+    @media (max-width:832px){
+
+.row1{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 50%;
+    
+}
+.row1 div{
+    width: auto;
+    height: auto;
+   
+}
+
+
+}
+
+@media (max-width:550px){
+    .lower{
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+    .lower div{
+        width: auto;
+        height: auto;
+       
+        gap: 10px;
+    }
+    
+
+    
+    .right div{
+        display: grid;
+        grid-template-columns: auto;
+        
+        gap: 10px;
+    }
+  
+  
+    .left{
+        width:auto;
+        margin: auto;
+        gap: 10px
+        ;
+    }
+
+     }
+     @media (max-width:400px){
+        .lower{
+            display: grid;
+            grid-template-columns: auto;
+            margin: auto;
+        }
+        .lower div{
+            width: auto;
+            height: auto;
+           gap: 10px;
+        }
+                .row1{
+            display: grid;
+            grid-template-columns:  50%; 
+            grid-template-rows: 50%;
+            margin: auto;
+            
+            }
+            .row1 div{
+            width: auto;
+            height: auto;
+            margin: 10px;
+            gap: 10px;
+        
+            }
+
+     }
+
+
+
+
+    
+    
+
+    
+</style>
+<body>
+    <div class="header">
+       <p style="text-align: end; font-size: xx-large;font-weight: bold;" > <i class="fa-solid fa-bell" style="height: 20px;color: white;"></i> john </p>
+    </div>
+    <div class="page">
+        <div class="page2"> 
+            <div class="row1" >
+                <div id="first"> 
+                    <div style="gap: 15px;" ><i class="fa-regular fa-user" style="gap:5px;text-align: justify; color: blue;" > </i> 10K<br> vistors</div>
+                    <div style="gap: 15px;text-align: justify;"  ><i class="fa-solid fa-volume-high" style="color: rgb(12, 235, 64);"></i> </i> 100% <br>volume</div>
+                    <div style="gap: 15px;justify-content: space-around;"><i class="fa-regular fa-file" style="color: red; text-align: right;"></i> 2000+ <br>file</div>
+                    <div style="gap: 15px;" > <i class="fa-regular fa-envelope" style="color: blue; justify-content: space-between;"></i> 10K<br> vistors</div>
+                    
+                </div>
+                <div id="second">
+                    <div><i class="fa-solid fa-share-nodes" style="color: blue;" ></i> 1000 share</div>
+                    <div><i class="fa-solid fa-network-wired" style="color: greenyellow;"></i>600 network</div>
+                    <div><i class="fa-solid fa-chart-simple" style="color: red;"></i> 350 returns</div>
+                    <div><i class="fa-solid fa-wifi"style="color: blue;"></i>100% wifi</div>
+                </div>
+                <div id="therd"> 
+                    <div  style="background-color: rgb(21, 141, 21);"><i class="fa-solid fa-star" style="color: white;height: auto;width: auto; text-align: center;"></i></div>
+                    <div style="background-color: rgb(30, 163, 30);">4000+</div>
+                    <div style="background-color: rgb(7, 7, 173);"></div>
+                    <div style="background-color: rgb(52, 52, 228);"></div>
+                </div>
+             </div>   
+            <div class="lower" >
+                <div class="left" style="font-size: x-large; color: rgb(3, 3, 176);">
+                    <div> member performance </div>
+                    <div> <img src="WhatsApp Image 2023-09-22 at 10.32.01 AM.jpeg" alt="" style="border-radius: 50%;width: 50px; text-align: center;"> omama akour </div>
+                    <div> <img src="WhatsApp Image 2023-09-22 at 10.32.01 AM.jpeg" alt="" style="border-radius: 50%;width: 50px; text-align: center;"> omama akour</div>
+                    <div> <img src="WhatsApp Image 2023-09-22 at 10.32.01 AM.jpeg" alt="" style="border-radius: 50%;width: 50px; text-align: center;">omama akour</div>
+                    <div><img src="WhatsApp Image 2023-09-22 at 10.32.01 AM.jpeg" alt="" style="border-radius: 50%;width: 50px; text-align: center;"> omama akour</div>
+                </div>
+                <div class="right">
+                    <div>
+                        <div style="text-align: center;justify-items: center;"> <i class="fa-solid fa-arrow-down" style="color: red; padding: 25px;"></i>total subsiceribtion  78548</div>
+                        <div style="text-align: center;justify-items: center;"><i class="fa-solid fa-arrow-down" style="color: red; padding: 25px;"></i>total subsiceribtion  78548</div>
+                    </div>
+                    <div>
+                        <div style="text-align: center;justify-items: center; background-color: red; color: white;" ><i class="fa-solid fa-arrow-down" style="color: rgb(239, 230, 230); padding: 25px;"></i>total subsiceribtion  78548</div>
+                        <div style="text-align: center;justify-items: center; background-color: rgb(87, 87, 242); color: white;"><i class="fa-solid fa-arrow-down" style="color: rgb(250, 250, 250); padding: 25px;"></i>total subsiceribtion  78548</div>
+                    </div>
+                    <div>
+                        <div style="text-align: center;justify-items: center;"><i class="fa-solid fa-arrow-down" style="color: red; padding: 25px;"></i>total subsiceribtion  78548</div>
+                        <div style="text-align: center;justify-items: center;"><i class="fa-solid fa-arrow-down" style="color: red; padding: 25px;"></i>total subsiceribtion  78548</div>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>

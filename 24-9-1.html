@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .page{
+        width: 90%;
+        height: 700px;
+        background-color: whitesmoke;
+        margin: auto;
+
+    }
+    .header{
+        width: 100%;
+        grid-template-columns: 40% 10% 10% 10% 10% 10% 10%;
+        display:grid ;
+        height: 50px;
+        background-color: rgb(189, 194, 198);
+        color: black;
+       padding-top: 5px;
+       
+
+    }
+    .head2{
+        width: 100%;
+        height: 50px;
+       
+        background-color: gainsboro;
+        grid-template-columns: auto auto auto auto;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        
+
+      
+    
+    }
+    .head2 div{
+        width: auto;
+        height: 40px;
+        background-color:ghostwhite;
+        
+        margin: 5px;
+        
+       
+    }
+    .container{
+        grid-template-columns:60% 40%;
+        display: grid;
+        background-color: white;
+        height: 600px;
+        margin-top: 20px;
+       
+    }
+    .left{
+        grid-template-rows:30% 70% ;
+        display: grid;
+    }
+    .Lup{
+        grid-template-columns: 50% 50%;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        justify-items: center;
+        
+
+    }
+    .Lup div{
+        width: 300px;
+        height: 150px;
+        background-color: gainsboro;
+        
+    }
+    .Ldown{
+        grid-template-rows: auto auto auto;
+        display: grid;
+        justify-items: center;
+    }
+       .Ldown div{
+        width: 700px;
+        height: 120px;
+        background-color:rgb(248, 246, 246);
+       }
+       .right{
+        width: 50%;
+        height: 50%;
+        background-color:whitesmoke;
+       
+       }
+       
+</style>
+<body>
+    <div class="header">
+        <div style="justify-content: space-between;"> karma</div> 
+        <div> home</div>
+        <div style="color: orange;">shop</div>
+        <div> blog</div>
+        <div> pages</div>
+        <div> contact</div>
+        <div> search</div>
+       </div> 
+   <div class="page">
+   
+
+    <div class="head2" > 
+        <div style="width: 100px;">discription</div>
+        <div style="width: 100px;"> spasification</div>
+        <div style="width: 100px;">comment</div>
+        <div style="width: 100px; background-color: orange;"> review</div>
+    
+
+
+    </div>
+    <div class="container"> 
+        <div class="left">
+        <div class="Lup">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="Ldown">
+            <div><img src="img.dogs.jpn.jpg" alt="" style="width: 60px;height:60 ;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde aliquid iure repellendus tempore quisquam aperiam velit, sapiente nulla, omnis minus earum sit ratione impedit ipsum, suscipit cum sed! Deserunt, obcaecati.</div>
+            <div><img src="img_cat.jpn.png" alt="" style="width: 60px;height: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A modi sit inventore commodi ut praesentium eos, sint natus quisquam architecto eligendi nihil quam cumque magnam earum in adipisci ad pariatur.</div>
+            <div><img src="img_cat.jpn.png" alt="" style="width: 60px;height: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A modi sit inventore commodi ut praesentium eos, sint natus quisquam architecto eligendi nihil quam cumque magnam earum in adipisci ad pariatur.</div>
+        </div>
+    </div>
+    
+        <div class="right">
+            <h2>Add a review</h2>
+            <p><label for="Username">Username</label> <br> 
+                <input type="text" id="Username" name="username"> <br> 
+                <label for="pwd">password</label> <br>
+                <input type="password"> <br> <br>
+                <input type="submit"value= login style="ba"> <br> 
+              </p>
+            <div>
+                
+            </div>
+
+        </div>
+    </div>
+   </div> 
+</body>
+</html>

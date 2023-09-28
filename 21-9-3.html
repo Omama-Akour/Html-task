@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(70, 67, 67);
+        
+    }
+    .offer{
+        width: 50%;
+        background-color: black;
+        height: 500px;
+    }
+    .fourpic{
+        
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 50% 50%;
+        background-color: rgb(81, 179, 222);
+        height: 500px;
+        width: 50%;
+        display: grid;
+        border: 1px solid black;
+    }
+    .up{
+        display: flex;
+    }
+    .three{
+        width: 100%;
+        height: 250px;
+        background-color: green;
+    }
+    .lower {
+        
+        width: 100%;
+        background-color: rgb(167, 167, 167);
+       
+       height: 70px;
+       grid-template-columns: 20% 20% 20% 20% 20%;
+       display: grid;
+       margin: 5px;
+       
+       
+    }
+    .lower div{
+        padding: 5px;
+        margin:5px;
+        width: 60%;
+        background-color: rgb(210, 210, 210);
+        
+    }
+    
+</style>
+<body>
+    <div class="container"> 
+        <div class=" up">
+            <div  class="offer"> <p style="color: orange;font-size: xx-large;font-weight: bold; text-align:left;">Offers and <br>Services</p> 
+            <p style="color: white;font-size: x-large;">stay connected to people<br> in your life</p></div>
+            <div class="fourpic">
+                <div ><img src="AdobeStock_282716309-scaled.jpeg" alt="" style="margin: auto;width: 100%;height: 250px;"></div>
+                <div style="color: rgb(114, 202, 240);width: 100%;height:250px ;"> <h1  style="color: white;font-size: xx-large;font-weight: bold;">Orange Extra</h1></div>
+                <div class="three"> <h1 style="color: white;">Smart life</h1></div>
+                <div><img src="man-watching-streaming-service-his-phone_23-2149047406.avif" alt="" style="width: 100%;height: 250px;"></div>
+            </div>
+         
+        
+        </div> 
+        <div  class="lower">
+            <div style="background-color: orange;">mobile offers</div> 
+            <div >internet offers</div>
+            <div> devices</div>
+            <div>international and roaming</div>
+            <div>fixed line</div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
